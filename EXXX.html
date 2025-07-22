@@ -5,7 +5,7 @@
         <title>MY HOBBIES</title>
         <meta name="description" content="The World Through My Lens"/>
         <!-- this is comment -->
-        <style> </style> 
+        <style> </style>
         <title> </title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/8fba19265e.js" crossorigin="anonymous"></script>
@@ -25,7 +25,7 @@
                </nav>
             </div>
        </div>
-       <div id="sports">
+       <div id="Web">
             <div class="container">
                 <div class="row">
                     <div class="col-1">
@@ -74,12 +74,12 @@
                         </div>
                         <br>
                         <div style="text-align:center">
-                        <span class="dot"></span> 
-                        <span class="dot"></span> 
-                        <span class="dot"></span> 
-                        <span class="dot"></span> 
-                        <span class="dot"></span> 
-                        <span class="dot"></span> 
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
                         </div>
                     </div>
                     <div class="cal-2">
@@ -89,7 +89,7 @@
                 </div>
             </div>
        </div>
-       <div id="painting">
+       <div id="Mobil">
             <div class="container">
                 <div class="row">
                     <div class="cal-2">
@@ -133,18 +133,18 @@
                         <br>
 
                         <div style="text-align:center">
-                        <span class="dot2"></span> 
-                        <span class="dot2"></span> 
-                        <span class="dot2"></span> 
-                        <span class="dot2"></span> 
-                        <span class="dot2"></span>  
+                        <span class="dot2"></span>
+                        <span class="dot2"></span>
+                        <span class="dot2"></span>
+                        <span class="dot2"></span>
+                        <span class="dot2"></span>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
        </div>
-       <div id="crafts">
+       <div id="Robotics">
             <div class="container">
                 <div class="row">
                     <div class="col-1">
@@ -155,26 +155,26 @@
                             <img src="photo/Hobbies/crafts2.jpg" style="width:100%">
                             <div class="text">My very first knitting thing</div>
                             </div>
-    
+
                             <div class="mySlides3 fade">
                             <div class="numbertext">2 / 3</div>
                             <img src="photo/Hobbies/crafts5.jpg" style="width:100%">
                             <div class="text"></div>
                             </div>
-    
+
                             <div class="mySlides3 fade">
                             <div class="numbertext">3 / 3</div>
                             <img src="photo/Hobbies/crafts6.jpg" style="width:100%">
                             <div class="text"></div>
                             </div>
-    
+
                             </div>
                             <br>
-    
+
                             <div style="text-align:center">
-                            <span class="dot3"></span> 
-                            <span class="dot3"></span> 
-                            <span class="dot3"></span> 
+                            <span class="dot3"></span>
+                            <span class="dot3"></span>
+                            <span class="dot3"></span>
                             </div>
                     </div>
                     <div class="cal-2">
@@ -199,26 +199,26 @@
                             <img src="photo/Hobbies/cook1.jpg" style="width:100%">
                             <div class="text"></div>
                             </div>
-    
+
                             <div class="mySlides4 fade">
                             <div class="numbertext">2 / 3</div>
                             <img src="photo/Hobbies/cook2.jpg" style="width:100%">
                             <div class="text">some accident </div>
                             </div>
-    
+
                             <div class="mySlides4 fade">
                             <div class="numbertext">3 / 3</div>
                             <img src="photo/Hobbies/kitchen1.jpg" style="width:100%">
                             <div class="text">our graduation cake</div>
                             </div>
-    
+
                             </div>
                             <br>
-    
+
                             <div style="text-align:center">
-                            <span class="dot4"></span> 
-                            <span class="dot4"></span> 
-                            <span class="dot4"></span>  
+                            <span class="dot4"></span>
+                            <span class="dot4"></span>
+                            <span class="dot4"></span>
                             </div>
                     </div>
 
@@ -237,19 +237,19 @@ function showSlides(slideIndex, slideClassName, dotClassName, interval) {
   let dots = document.getElementsByClassName(dotClassName);
 
   for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
 
   slideIndex++;
   if (slideIndex > slides.length) {
     slideIndex = 1;
-  }    
+  }
 
   for (let i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  slides[slideIndex - 1].style.display = "block";  
+  slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
   setTimeout(() => showSlides(slideIndex, slideClassName, dotClassName, interval), interval);
 }
